@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --no-source-map src/main.scss static/main.css",
-    "watch": "sass --no-source-map --watch src/main.scss static/main.css"
+    "watch": "sass --no-source-map --watch src/main.scss static/main.css",
+    "cypress:open": "cypress open"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "cypress": "^12.7.0"
   }
 }
